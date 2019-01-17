@@ -5,7 +5,7 @@ $beige: #e6c9a1;
 $olive: #76792e;
 
 $fontOne: 'Old Standard TT', serif;
-$fontTwo:'Questrial', sans-serif;;
+$fontTwo:'Questrial', sans-serif;
  */
 
 
@@ -104,4 +104,63 @@ left:0;
 .social-links i:hover{
   color:white;
 
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+
+
+.contact-body{
+  margin:auto;
+  background-color: grey;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid{
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background-color: white;
+  color: black;
+  border: 2px solid red;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2{
+  font-family: 'Old Standard TT', serif;
+}
+
+.contact-grid p{
+  font-family: 'Questrial', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr{
+  border-top: 5px dotted black;
+  margin: auto;
+}
+
+.contact-list i{
+  font-size: 50px;
+  padding: 5rem;
+}
+
+.mdl-card__title-text{
+  background: black;
+  font-family: 'Questrial', sans-serif;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.mdl-card__title{
+  margin-bottom: 30px;
 }

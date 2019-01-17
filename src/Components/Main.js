@@ -18,7 +18,7 @@ const Main = () =>(
 		exact path="/aboutme"
 		component={AboutMe}
 		/>
-		<Route 
+		<Route
 		exact path="/contact"
 		component={Contact}
 		/>
@@ -37,6 +37,19 @@ const Main = () =>(
 	)
 
 
-
-
 export default Main;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
